@@ -1,0 +1,12 @@
+{
+  "method": "torch.jit.trace",
+  "fallback_reason": "Tracing provides a practical graph-based alternative without relying on torch.compile/Inductor support on this Windows CPU setup.",
+  "eager_median_seconds_per_call": 5.9154500486329195e-05,
+  "traced_median_seconds_per_call": 6.772049993742258e-05,
+  "eager_runs": 5,
+  "traced_runs": 5,
+  "warmup_iterations": 30,
+  "measured_iterations_per_run": 200,
+  "trace_setup_excluded": true,
+  "device": "CPU"
+}

@@ -1,0 +1,26 @@
+{
+  "logical_shape": [
+    512,
+    256
+  ],
+  "dtype": "torch.float32",
+  "contiguous_tensor_is_contiguous": true,
+  "transposed_tensor_is_contiguous": false,
+  "contiguous_stride": [
+    256,
+    1
+  ],
+  "non_contiguous_stride": [
+    1,
+    512
+  ],
+  "contiguous_median_seconds": 8.388749964069575e-05,
+  "non_contiguous_median_seconds": 9.384649980347604e-05,
+  "one_contiguous_copy_seconds": 0.0002169000217691064,
+  "copy_result_is_contiguous": true,
+  "runs": 5,
+  "warmup_iterations": 30,
+  "iterations_per_run": 200,
+  "operation": "elementwise multiply by 1.5 then add 0.25",
+  "note": "Copy cost must be considered; contiguous conversion is worthwhile when later operations save more than the copy cost."
+}

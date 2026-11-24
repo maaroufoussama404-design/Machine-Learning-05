@@ -1,0 +1,45 @@
+{
+  "dataset": "make_moons",
+  "samples": 256,
+  "input_features": 2,
+  "architecture": "2-8-1",
+  "activation": "ReLU hidden, sigmoid output",
+  "loss": "Binary cross-entropy",
+  "epochs": 120,
+  "runs": 5,
+  "timing": "Full-batch training including forward, loss, backward and optimizer update; warm-up excluded",
+  "numpy_median_seconds": 0.0156947000650689,
+  "pytorch_median_seconds": 0.06109000009018928,
+  "numpy_run_seconds": [
+    0.01256239996291697,
+    0.012223800062201917,
+    0.01596600003540516,
+    0.0156947000650689,
+    0.016266899998299778
+  ],
+  "pytorch_run_seconds": [
+    0.06109000009018928,
+    0.059041199972853065,
+    0.06337769993115216,
+    0.059554000035859644,
+    0.0810844999505207
+  ],
+  "numpy_final_losses": [
+    0.41892734189655606,
+    0.382441004001673,
+    0.39357575076639184,
+    0.3564307751472518,
+    0.3432506436144286
+  ],
+  "pytorch_final_losses": [
+    0.3591686640461233,
+    0.3703827798214973,
+    0.3428458609800417,
+    0.346778236066894,
+    0.4198172580752709
+  ],
+  "numpy_median_final_loss": 0.382441004001673,
+  "pytorch_median_final_loss": 0.3591686640461233,
+  "device": "CPU",
+  "note": "Timings depend on hardware, software versions, threading and workload."
+}

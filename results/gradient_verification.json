@@ -1,0 +1,33 @@
+{
+  "expression": "((a*b+c)**2).relu().sum()",
+  "input_values": [
+    1.5,
+    2.0,
+    0.5
+  ],
+  "output": 12.25,
+  "custom_gradients": [
+    14.0,
+    10.5,
+    7.0
+  ],
+  "pytorch_gradients": [
+    14.0,
+    10.5,
+    7.0
+  ],
+  "finite_difference_gradients": [
+    13.999999998404178,
+    10.499999999247223,
+    7.000000000978446
+  ],
+  "max_abs_difference_vs_pytorch": 0.0,
+  "max_abs_difference_vs_finite_difference": 1.5958221410983242e-09,
+  "tolerance": 1e-06,
+  "shared_node_accumulation": {
+    "expected_gradient": 7.0,
+    "actual_gradient": 7.0,
+    "passed": true
+  },
+  "passed": true
+}

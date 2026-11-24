@@ -1,0 +1,12 @@
+{
+  "lab": "Lab 5 - Frameworks and Automatic Differentiation",
+  "gradient_verification_passed": true,
+  "gradient_max_difference_pytorch": 0.0,
+  "gradient_max_difference_numerical": 1.5958221410983242e-09,
+  "shared_gradient_accumulation_passed": true,
+  "training_benchmark_completed": true,
+  "graph_inspection_completed": true,
+  "execution_comparison_completed": true,
+  "contiguity_comparison_completed": true,
+  "all_required_experiments_completed": true
+}
